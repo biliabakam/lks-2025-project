@@ -1,0 +1,9 @@
+version: 0.0
+files:
+  - source: /
+    destination: /home/ubuntu/llm-project
+hooks:
+  AfterInstall:
+  - location: C:/Users/Lenovo/llm-project
+  timeout: 300
+  

@@ -1,0 +1,17 @@
+version: 0.2
+
+phases:
+  install:
+    runtime-versions:
+    json: 18
+    commands:
+    - npm install
+    - npm package.js
+build:
+  commands:
+  - npm app.js
+
+artifacts:
+files: {
+  - '**/**'
+}
